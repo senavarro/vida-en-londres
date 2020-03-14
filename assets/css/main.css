@@ -2495,9 +2495,23 @@ input, select, textarea {
 		margin-bottom: 18px;
 	}
 
+	.white{
+		color: white;
+	}
+
 
 /* Blogs */
 
+.black{
+	font-weight: bold;
+}
+
+figcaption{
+	margin-top: -24px;
+	margin-bottom: 20px;
+}
+
+/* Coronavirus */
 	#blog-bkgr{
 		padding: 10em 0 10em 0;
 		text-align: left;
@@ -2510,10 +2524,52 @@ input, select, textarea {
 	}
 
 	#blog-bkgr h1, #blog-bkgr h2 {
-		color: black;
+		color: white;
 		font-weight: bold;
 	}
 
-	.white{
-		color: white;
+	/* Mobile */
+	@media (min-width:320px){
+		.meme{
+			width: 70%;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
 	}
+	@media (min-width:641px){
+		.meme{
+			width: 60%;
+		}
+	}
+
+	@media (min-width:1025px) {
+		.meme{
+			width: 45%;
+		}
+	}
+
+
+
+
+/* Como acabé en Londres */
+
+	#blog-bkgr-acabé{
+		padding: 10em 0 10em 0;
+		text-align: left;
+		background: url('../../images/acabe.jpeg') no-repeat center center fixed;
+		background-attachment: fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	#blog-bkgr-acabé h1, #blog-bkgr-acabé h2 {
+		color: white;
+		font-weight: bold;
+	}
+
+
+
+
+
