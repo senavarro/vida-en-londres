@@ -2481,6 +2481,7 @@ input, select, textarea {
 	p{
 		font-size: 18px;
 		color: black;
+		line-height: 2em;
 	}
 
 	p:nth-child(1){
@@ -2499,6 +2500,10 @@ input, select, textarea {
 		color: white;
 	}
 
+	#por{
+		margin-bottom: 50px;
+	}
+
 
 /* Blogs */
 
@@ -2509,6 +2514,7 @@ input, select, textarea {
 figcaption{
 	margin-top: -24px;
 	margin-bottom: 20px;
+	margin-left: 24%;
 }
 
 /* Coronavirus */
@@ -2534,17 +2540,32 @@ figcaption{
 			width: 70%;
 			margin-top: 20px;
 			margin-bottom: 20px;
+			margin-left: 15%;
+		}
+
+		figcaption{
+			margin-left: 0%;
+			margin-left: 15%;
 		}
 	}
 	@media (min-width:641px){
 		.meme{
 			width: 60%;
 		}
+		figcaption{
+			margin-left: 0%;
+		}
 	}
 
 	@media (min-width:1025px) {
 		.meme{
-			width: 45%;
+			width: 50%;
+			margin-left: 24%;
+			margin-bottom: 20px;
+		}
+
+		figcaption{
+			margin-left: 24%;
 		}
 	}
 
@@ -2568,6 +2589,32 @@ figcaption{
 		color: white;
 		font-weight: bold;
 	}
+
+/* Precio vivir en Londres */
+
+	#blog-bkgr-precio{
+		padding: 10em 0 10em 0;
+		text-align: left;
+		background: url('../../images/budget.jpeg') no-repeat center center fixed;
+		background-attachment: fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	ul li{
+		list-style: circle;
+		color: black;
+		font: inherit;
+		font-size: 20px;
+	}
+
+	.blog-precio{
+		text-align: center;
+		margin-top: 50px;
+	}
+
 
 
 
